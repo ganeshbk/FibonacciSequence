@@ -4,11 +4,11 @@
 
 #ifndef UNTITLED_FIBONACCIITERATIVE_H
 #define UNTITLED_FIBONACCIITERATIVE_H
-// @breif:  Funtion  to return nth fibonacci number using iterative approach
+
+// @brief:  Function  to return nth fibonacci number using iterative approach
 // @param: [input] ->n nth Fibonacci number requested.
 //         [out]   ->currNum Value of nth Fibonacci number.
 //                    if input is invalid will return -1.
-
 unsigned long long int fibonacciIterative(int n)
 {
     if(n<0){

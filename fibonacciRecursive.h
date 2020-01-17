@@ -5,11 +5,9 @@
 #ifndef UNTITLED_FIBONACCIRECURSIVE_H
 #define UNTITLED_FIBONACCIRECURSIVE_H
 
-// @breif:  Funtion  to return nth fibonacci number using recursive approach.
+// @breif:  Function  to return nth fibonacci number using recursive approach.
 // @param: [input] ->n nth Fibonacci number requested.
-//         [out]   ->currNum Value of nth Fibonacci number.
-//                    if input is invalid will return -1.
-
+//         [out]   -> nth Fibonacci number
 unsigned long long int fibonacciRecursive(int n)
 {
     if(n<0)

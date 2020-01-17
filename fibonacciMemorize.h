@@ -7,6 +7,9 @@
 
 #include<stdio.h>
 
+// @brief:  Function to return nth fibonacci number using memorization approach
+// @param: [input] ->n nth Fibonacci number requested.
+//         [out]   -> Fib[n]
 unsigned long long int fibonacciMemorize(int n, unsigned long long int fib[])
 {
     // Check if fib(n) is already computed return the value.
